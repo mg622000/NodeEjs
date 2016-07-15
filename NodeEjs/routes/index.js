@@ -66,7 +66,7 @@ router.get('/', function(req, res, next) {
 //	});
 	
 	
-	console.log('999999999999999999999');
+	console.log('AAAAAAAAAAAAAAA');
 	
 //	res.render('index', {
 //		title : 'Express',
