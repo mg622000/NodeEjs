@@ -58,3 +58,4 @@ app.use(function(err, req, res, next) {
 
 
 module.exports = app;
+console.log('web start port 3000');
