@@ -1,9 +1,9 @@
-var express = require('express');
-var router = express.Router();
-var request = require('request');
-var JSONStream = require('JSONStream');
-var es = require('event-stream');
-var fs = require('fs');
+var express         = require('express');
+var router          = express.Router();
+var request         = require('request');
+var JSONStream      = require('JSONStream');
+var es              = require('event-stream');
+var fs              = require('fs');
 
 router.get('/', function(req, res, next) {
 	
@@ -15,7 +15,7 @@ router.get('/', function(req, res, next) {
 	// JSON parse
 	var parser = JSONStream.parse('*.results') ;
 	
-	// 取得資料
+	// Get Data
 	var reqData = request({url: data_url});
 	
 	// Render
