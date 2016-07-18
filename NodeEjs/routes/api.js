@@ -32,9 +32,9 @@ function testMySQL() {
     
     var connection = mysql.createConnection({
         host     : '127.0.0.1',
-        user     : 'root',
-        password : 'q19791129',
-        database : 'tsti'
+        user     : 'nodeuser',
+        password : 'nodepwd',
+        database : 'nodedb'
     });
     
     connection.connect();
